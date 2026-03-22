@@ -17,7 +17,7 @@ O sistema também apresenta um comparativo entre os dois tipos, mostrando a dife
 ## ⚙️ Funcionalidades
 - Cálculo de consumo mensal (kWh)
 - Estimativa de custo
-- Classificação de consumo
+- Faixa de consumo
 - Comparação entre modelos convencional e inverter
 - Cálculo de economia mensal
 - Menu interativo
