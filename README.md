@@ -35,5 +35,7 @@ Conversão:
 
 ## ▶️ Como executar
 
-```bash
+👉 Por isso:
+
+```md
 python app.py
