@@ -1,9 +1,9 @@
-Calculadora de Consumo de Ar-Condicionado
+# ❄️ Calculadora de Consumo de Ar-Condicionado
 
 ## 📌 Sobre
-Projeto desenvolvido em Python para calcular o consumo mensal de energia de um ar-condicionado, considerando a capacidade em BTUs, o tempo de uso diário e o tipo do equipamento (convencional ou inverter).
+Projeto desenvolvido em Python para estimar o gasto de energia e o custo mensal de um ar-condicionado, considerando a capacidade em BTUs, o tempo de uso diário e o tipo do equipamento (convencional ou inverter).
 
-O sistema também apresenta um comparativo entre os dois tipos, mostrando a diferença de consumo e custo.
+O sistema também apresenta um comparativo entre os dois tipos, mostrando a diferença de gasto e economia.
 
 ---
 
@@ -15,11 +15,11 @@ O sistema também apresenta um comparativo entre os dois tipos, mostrando a dife
 ---
 
 ## ⚙️ Funcionalidades
-- Cálculo de consumo mensal (kWh)
-- Estimativa de custo
-- Faixa de consumo
+- Estimativa de gasto mensal de energia (kWh)
+- Cálculo de custo mensal
+- Nível de consumo (baixo, médio, alto)
 - Comparação entre modelos convencional e inverter
-- Cálculo de economia mensal
+- Estimativa de economia mensal
 - Menu interativo
 
 ---
