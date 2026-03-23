@@ -5,7 +5,9 @@ div align="center">
 💡 Estimativa de gasto de energia e custo mensal com comparação entre modelos
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+
 ![GitHub](https://img.shields.io/badge/GitHub-Repositório-black?logo=github)
+
 ![Status](https://img.shields.io/badge/Status-Concluído-green)
 
 </div>
