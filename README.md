@@ -30,6 +30,14 @@ Além disso, apresenta um comparativo entre modelos convencional e inverter, des
 
 ---
 
+## 🚀 Tecnologias
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+
+![GitHub](https://img.shields.io/badge/GitHub-Repositório-black?logo=github)
+
+---
+
 ## ⚙️ Funcionalidades
 
 - Cálculo de consumo mensal  
@@ -77,5 +85,5 @@ Os valores apresentados são estimativas e podem variar conforme o modelo do apa
 ---
 
 ## 👨‍💻 Autor
-Lincoln Lima  
-[LinkedIn](https://www.linkedin.com/in/lincoln-lima-89414596)
+
+Lincoln Lima
