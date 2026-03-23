@@ -78,6 +78,15 @@ Saída aproximada:
 
 ---
 
+## 📊 Estimativas
+
+- Consumo mensal: ~420 kWh  
+- Custo mensal: ~R$ 378  
+- Nível de consumo: médio  
+- Economia estimada: ~R$ 380/mês  
+
+---
+
 ## 📊 Observação
 
 Os valores apresentados são estimativas e podem variar conforme o modelo do aparelho e condições de uso.
