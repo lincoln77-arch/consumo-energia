@@ -77,5 +77,5 @@ Os valores apresentados são estimativas e podem variar conforme o modelo do apa
 ---
 
 ## 👨‍💻 Autor
-
-Lincoln Lima
+Lincoln Lima  
+[LinkedIn](https://www.linkedin.com/in/lincoln-lima-89414596)
