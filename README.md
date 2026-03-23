@@ -1,50 +1,37 @@
-# Calculadora de Consumo - Ar Condicionado ❄️
+# ❄️ Calculadora de Consumo de Ar-Condicionado
 
-print("=== Calculadora de Consumo de Energia ===\n")
+## 📌 Sobre
+Projeto desenvolvido em Python para estimar o gasto de energia e o custo mensal de um ar-condicionado, considerando a capacidade em BTUs, o tempo de uso diário e o tipo do equipamento (convencional ou inverter).
 
-btus = int(input("Informe a capacidade (BTUs): "))
-horas = float(input("Horas de uso por dia: "))
-tipo = input("Tipo (convencional/inverter): ").lower()
+O sistema também apresenta um comparativo entre os dois tipos, mostrando a diferença de gasto e economia.
 
-potencia_base = btus * 0.293
+---
 
-potencia_conv = potencia_base
-potencia_inv = potencia_base * 0.5
+## 🚀 Tecnologias
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![GitHub](https://img.shields.io/badge/GitHub-Repositório-black?logo=github)
 
-if tipo == "inverter":
-    potencia = potencia_inv
-else:
-    potencia = potencia_conv
+---
 
-consumo = (potencia * horas * 30) / 1000
+## ⚙️ Funcionalidades
+- Estimativa de gasto mensal de energia (kWh)
+- Cálculo de custo mensal
+- Nível de consumo (baixo, médio, alto)
+- Comparação entre modelos convencional e inverter
+- Estimativa de economia mensal
 
-consumo_conv = (potencia_conv * horas * 30) / 1000
-consumo_inv = (potencia_inv * horas * 30) / 1000
+---
 
-tarifa = 0.90
+## 🧮 Fórmula
+Consumo = (potência × horas × 30) / 1000  
+1 BTU ≈ 0,293 W
 
-custo = consumo * tarifa
-custo_conv = consumo_conv * tarifa
-custo_inv = consumo_inv * tarifa
+---
 
-def nivel(valor):
-    if valor < 150:
-        return "Baixo"
-    elif valor < 400:
-        return "Médio"
-    else:
-        return "Alto"
+## ▶️ Como executar
+python app.py
 
-print("\n--- Resultado ---")
-print(f"Capacidade: {btus} BTUs")
-print(f"Tipo: {tipo}")
-print(f"Consumo: {consumo:.2f} kWh/mês")
-print(f"Custo: R$ {custo:.2f}")
-print(f"Nível de consumo: {nivel(consumo)}")
+---
 
-print("\n--- Comparativo ---")
-print(f"Convencional: {consumo_conv:.2f} kWh | R$ {custo_conv:.2f}")
-print(f"Inverter: {consumo_inv:.2f} kWh | R$ {custo_inv:.2f}")
-
-economia = custo_conv - custo_inv
-print(f"Economia com inverter: R$ {economia:.2f}/mês")
+## 👨‍💻 Autor
+Lincoln Lima
